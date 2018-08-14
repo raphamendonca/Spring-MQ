@@ -1,0 +1,18 @@
+server:
+  port: 8080
+
+#rabbitmq settings for Spring Cloud Stream to use
+spring:
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+
+#  cloud:
+#    stream:
+#      bindings:
+#        output:
+#          destination: legalbriefs
+#      default:
+#        contentType: application/json
